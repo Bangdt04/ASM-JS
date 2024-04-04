@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./demo.js"></script>
+    <link rel="stylesheet" href="./trangdat.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="./imge/logo.webp" alt=""  >
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="./trangchu.html" onclick="hello()">Trang Chủ</a></li>
+                    <li><a href="">Vé rẻ trong tháng </a></li>
+                    <li><a href="./trangdat.html" onclick="datve()">Quản lí đặt chỗ</a></li>
+                    <li><a href="">Tin khuyến mãi</a></li>
+                    <li><a href="./lienhe.html"  onclick="lienhe()">Liên hệ</a></li>
+                    <button> <a href="">Đăng Nhập / Đăng Kí</a> </button>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="form">
+        <form action="">
+        <p>Họ Và Tên : </p>
+        <input type="text" name="" id="">
+        <p>Chứng Minh Thư : </p>
+        <input type="text" name="" id="">
+        <p>Email :</p>
+        <input type="email" name="" id="">
+        <p>Giới Tính :</p>
+        <input type="radio" name="gender" value="male" checked> Nam
+        <input type="radio" name="gender" value="female"> Nữ
+        <p>Số điện thoại : </p>
+        <input type="tel" name="" id="">
+        <p>Chọn chuyến bay :</p>
+        <select name="" id="">
+            <option value="">---Chọn--- </option>
+        </select>
+        <p>Chọn hình thức thanh toán</p>
+        <select name="" id="">
+            <option value="">---Chọn---</option>
+            <option value="">Thanh toán bằng tiền mặt</option>
+            <option value="">Thanh toán bằng thẻ tín dụng</option>
+        </select>
+        <p>Ngày Sinh : </p>
+        <input type="date" name="bday">
+        <input type="reset" placeholder="reset" onclick="reset()">
+    <input type="submit" placeholder="submit" onclick="submit()">
+    </form>
+</div>
+    <div class="footer">
+        <img src="./imge/bannner1.jpg" alt="">
+    </div>
+</body>
+
+</html>
